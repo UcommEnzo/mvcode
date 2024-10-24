@@ -1,0 +1,69 @@
+.workerContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black
+}
+
+.workerBody {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: space-between;
+}
+
+.bodyLeft,.bodyRight {
+    border: 1px dashed black;
+    border-radius: 6px;
+    width: 24vw;
+    background: rgba(0, 0, 0, 0.05);
+    /* overflow: scroll; */
+}
+
+.bodyCenter {
+    width: 38vw;
+    /* overflow: scroll; */
+    
+}
+.listBlock {
+    display: flex;
+    justify-content: space-around;
+}
+
+.codesBlock {
+    border: 1px dashed black;
+    border-radius: 6px;
+    background: rgba(181, 255, 152, 0.1);
+    height: 47vh;
+}
+.buttonBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyLeft {
+    margin-left: 4px;
+}
+.bodyRight {
+    margin-right: 4px;
+}
+
+.workerFooter {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 26px);
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.letterInput{
+    width: 30vw;
+}
+.threadInput{
+    width: 30vw;
+}
+.emailInput{
+    width: 30vw;
+}
